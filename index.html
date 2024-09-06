@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davide e Floriana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            margin: 0;
+            background: url('flori.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(189, 216, 239); /* Colore del testo sopra l'immagine */
+            text-shadow: 2px 2px 4px rgba(25, 26, 27, 0.7); /* Effetto ombra al testo */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 250px;
+        } 
+
+        #upload-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: rgba(69, 13, 209, 0.8); /* Sfondo semi-trasparente */
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 5px;
+            margin-top: 280px; /* Distanza dalla scritta */
+        }
+
+        #upload-button:hover {
+            background-color: rgba(147, 216, 237, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <h1>Davide e Floriana</h1>
+    <!-- Pulsante per caricare foto su Google Photos -->
+    <button id="upload-button" onclick="window.location.href='https://photos.app.goo.gl/kEtq8r5MqJn7mP2D6';">Carica foto</button>
+ 
+</body>
+</html>
